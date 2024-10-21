@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+    .cabeçalho{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        font-family: "Montserrat", sans-serif;
+        color: #004A8D;
+        margin-top: 1rem;
+
+        img{
+            width: 8rem;
+        }
+
+        .buscar{
+            display: flex;
+            gap: 1rem;
+        }
+    }
+
+    .cabeçalho_2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+        gap: 5rem;
+        background-color: #004A8D;
+        font-family: "Montserrat", sans-serif;
+        color: #ffffff;
+        margin-top: 1rem;
+
+        img{
+            width: 8rem;
+        }
+
+        .buscar{
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}
+
+main{
+    display: flex;
+
+    .img{
+        display: flex;
+        background-image: url("https://eventos.sp.senac.br/wp-content/uploads/2024/08/cover-evento-casa-aberta-senac-2024.webp");
+        width: 120rem;
+        height: 45rem;
+        text-align: center;
+        color: rgb(255, 255, 255);
+
+        .conteudo{
+            margin-top: 15rem;
+            margin-left: 33rem;
+            width: 50rem;
+            height: 10rem;
+            background-color: rgba(0, 0, 0, 0.555);
+            text-align: start;
+            padding: 20px;
+
+            .casa{
+                font-family: "Montserrat", sans-serif;
+                font-size: 2rem;
+            }
+
+            .outubro{
+                font-family: "Montserrat", sans-serif;
+                font-size: 1.5rem;
+                margin-top: 1rem;
+            }
+
+            .atividade{
+                font-family: "Montserrat", sans-serif;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+footer{
+    background-color: #004A8D;
+    
+    .footer_inicio{
+        margin: 0rem 0rem 5rem 0rem;
+    }
+
+    .logo_footer{
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        padding: 5rem 0rem 0rem 10rem;
+        img{
+            width: 7rem;
+        }
+    }
+
+    .footer_couteudo{
+        display: flex;
+    }
+
+    .conteudo_footer_uni{
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        padding: 5rem 0rem 0rem 10rem;
+    }
+
+    .conteudo_footer_bol{
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        padding: 5rem 0rem 0rem 10rem;
+    }
+
+    .conteudo_footer_cur{
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        padding: 5rem 0rem 0rem 10rem;
+    }
+
+    .conteudo_footer_jov{
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        padding: 5rem 0rem 0rem 10rem;
+    }
+
+    .conteudo_footer_siga{
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        padding: 5rem 0rem 0rem 10rem;  
+    }
+
+    .icons{
+        display: flex;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .footer_fim{
+        background-color: #00427E;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        height: 7rem;
+        align-items: center;
+        font-family: "Montserrat", sans-serif;
+    }
+}
